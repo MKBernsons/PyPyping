@@ -1,5 +1,6 @@
 import time
 import requests
+from bs4 import BeautifulSoup as bs
 
 URL = 'https://www.ss.lv/lv/transport/cars/today/sell/'
 LAPAS = 'lapas/'
